@@ -164,7 +164,6 @@ main section div > ul li:nth-child(3):focus  .card_3,
 main section div > ul li:nth-child(4):focus  .card_4,
 main section div > ul li:nth-child(5):focus  .card_5,
 main section div > ul li:first-child .card_1
-
 {
 visibility: visible;
 } 
@@ -190,8 +189,9 @@ visibility: visible;
         --width_main_card: 600px;
     row-gap: 15px;
     grid-template-columns: auto auto;
-    --height_main_card: fit-content;
+    --height_main_card:560px;
     left: -125px;
+    background-color:white;
 
 
 }
