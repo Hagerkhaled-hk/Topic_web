@@ -41,9 +41,10 @@ main  div ul li
 
 
 
-
 main  div ul li:hover,
-main  div ul li:focus
+main  div ul li:focus,
+main  div ul li:first-child
+
 {
     border-bottom:1px solid var(--sec_color);
     background-color:#185a7e17;
@@ -157,7 +158,10 @@ top: 58px;
 }
 
 
-
+main section div > ul li:first-child .card_1
+{
+    visibility: visible;
+}
 
 
 
